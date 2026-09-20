@@ -1,0 +1,16 @@
+# 本地稿件池（学生录音 / 待播 / 已播）不入库
+/uploads/
+/temp/
+/上传的文件/
+/autoplay/
+/bgm/
+/hc/
+
+# 证书与敏感配置
+*.crt
+*.key
+tougao_config.php
+
+# 运行时记录
+login_attempts.json
+*.log
